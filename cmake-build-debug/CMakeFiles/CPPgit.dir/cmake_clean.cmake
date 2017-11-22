@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPPgit.dir/main.cpp.o"
+  "CMakeFiles/CPPgit.dir/nullable.cpp.o"
   "CPPgit.pdb"
   "CPPgit"
 )

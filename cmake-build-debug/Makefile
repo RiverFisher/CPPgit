@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+nullable.o: nullable.cpp.o
+
+.PHONY : nullable.o
+
+# target to build an object file
+nullable.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/nullable.cpp.o
+.PHONY : nullable.cpp.o
+
+nullable.i: nullable.cpp.i
+
+.PHONY : nullable.i
+
+# target to preprocess a source file
+nullable.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/nullable.cpp.i
+.PHONY : nullable.cpp.i
+
+nullable.s: nullable.cpp.s
+
+.PHONY : nullable.s
+
+# target to generate assembly for a file
+nullable.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/nullable.cpp.s
+.PHONY : nullable.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... nullable.o"
+	@echo "... nullable.i"
+	@echo "... nullable.s"
 .PHONY : help
 
 

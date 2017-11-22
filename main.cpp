@@ -1,5 +1,5 @@
 #include <iostream>
-#define N 32;
+#include "nullable.h"
 
 using namespace std;
 
@@ -21,12 +21,18 @@ int main() {
     fillArrayOfStrings(arrayOfStrings);
 
     for (int i = 0; i < 32; i++) {
-        cout << arrayOfIntegers << " ";
+        cout << arrayOfIntegers[i] << " ";
     }
     cout << endl;
 
     for (int i = 0; i < 32; i++) {
-        cout << arrayOfStrings << " ";
+        cout << arrayOfStrings[i] << " ";
+    }
+    cout << endl;
+
+    setArrayOfNumbersToZero(arrayOfIntegers);
+    for (int i = 0; i < 32; i++) {
+        cout << arrayOfIntegers[i] << " ";
     }
     cout << endl;
 
@@ -41,7 +47,7 @@ bool fillArrayOfIntegers(int *array) {
     return true;
 }
 
-bool arrayOfStrings(string *array) {
+bool fillArrayOfStrings(string *array) {
     int begin = 1, end = 32;
     string alphabet[26] = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
         "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};

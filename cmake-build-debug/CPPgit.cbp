@@ -87,6 +87,12 @@
 		<Unit filename="/home/wizard/CLionProjects/CPPgit/main.cpp">
 			<Option target="CPPgit"/>
 		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/nullable.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/nullable.h">
+			<Option target="CPPgit"/>
+		</Unit>
 		<Unit filename="/home/wizard/CLionProjects/CPPgit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

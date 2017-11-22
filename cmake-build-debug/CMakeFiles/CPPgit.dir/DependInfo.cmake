@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wizard/CLionProjects/CPPgit/main.cpp" "/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles/CPPgit.dir/main.cpp.o"
+  "/home/wizard/CLionProjects/CPPgit/nullable.cpp" "/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles/CPPgit.dir/nullable.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
