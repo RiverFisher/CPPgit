@@ -81,43 +81,69 @@ CMakeFiles/CPPgit.dir/main.cpp.o.provides: CMakeFiles/CPPgit.dir/main.cpp.o.requ
 CMakeFiles/CPPgit.dir/main.cpp.o.provides.build: CMakeFiles/CPPgit.dir/main.cpp.o
 
 
-CMakeFiles/CPPgit.dir/nullable.cpp.o: CMakeFiles/CPPgit.dir/flags.make
-CMakeFiles/CPPgit.dir/nullable.cpp.o: ../nullable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPgit.dir/nullable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPgit.dir/nullable.cpp.o -c /home/wizard/CLionProjects/CPPgit/nullable.cpp
+CMakeFiles/CPPgit.dir/null.cpp.o: CMakeFiles/CPPgit.dir/flags.make
+CMakeFiles/CPPgit.dir/null.cpp.o: ../null.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPgit.dir/null.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPgit.dir/null.cpp.o -c /home/wizard/CLionProjects/CPPgit/null.cpp
 
-CMakeFiles/CPPgit.dir/nullable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPgit.dir/nullable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wizard/CLionProjects/CPPgit/nullable.cpp > CMakeFiles/CPPgit.dir/nullable.cpp.i
+CMakeFiles/CPPgit.dir/null.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPgit.dir/null.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wizard/CLionProjects/CPPgit/null.cpp > CMakeFiles/CPPgit.dir/null.cpp.i
 
-CMakeFiles/CPPgit.dir/nullable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPgit.dir/nullable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wizard/CLionProjects/CPPgit/nullable.cpp -o CMakeFiles/CPPgit.dir/nullable.cpp.s
+CMakeFiles/CPPgit.dir/null.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPgit.dir/null.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wizard/CLionProjects/CPPgit/null.cpp -o CMakeFiles/CPPgit.dir/null.cpp.s
 
-CMakeFiles/CPPgit.dir/nullable.cpp.o.requires:
+CMakeFiles/CPPgit.dir/null.cpp.o.requires:
 
-.PHONY : CMakeFiles/CPPgit.dir/nullable.cpp.o.requires
+.PHONY : CMakeFiles/CPPgit.dir/null.cpp.o.requires
 
-CMakeFiles/CPPgit.dir/nullable.cpp.o.provides: CMakeFiles/CPPgit.dir/nullable.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/nullable.cpp.o.provides.build
-.PHONY : CMakeFiles/CPPgit.dir/nullable.cpp.o.provides
+CMakeFiles/CPPgit.dir/null.cpp.o.provides: CMakeFiles/CPPgit.dir/null.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/null.cpp.o.provides.build
+.PHONY : CMakeFiles/CPPgit.dir/null.cpp.o.provides
 
-CMakeFiles/CPPgit.dir/nullable.cpp.o.provides.build: CMakeFiles/CPPgit.dir/nullable.cpp.o
+CMakeFiles/CPPgit.dir/null.cpp.o.provides.build: CMakeFiles/CPPgit.dir/null.cpp.o
+
+
+CMakeFiles/CPPgit.dir/fill.cpp.o: CMakeFiles/CPPgit.dir/flags.make
+CMakeFiles/CPPgit.dir/fill.cpp.o: ../fill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPgit.dir/fill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPgit.dir/fill.cpp.o -c /home/wizard/CLionProjects/CPPgit/fill.cpp
+
+CMakeFiles/CPPgit.dir/fill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPgit.dir/fill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wizard/CLionProjects/CPPgit/fill.cpp > CMakeFiles/CPPgit.dir/fill.cpp.i
+
+CMakeFiles/CPPgit.dir/fill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPgit.dir/fill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wizard/CLionProjects/CPPgit/fill.cpp -o CMakeFiles/CPPgit.dir/fill.cpp.s
+
+CMakeFiles/CPPgit.dir/fill.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPPgit.dir/fill.cpp.o.requires
+
+CMakeFiles/CPPgit.dir/fill.cpp.o.provides: CMakeFiles/CPPgit.dir/fill.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPPgit.dir/build.make CMakeFiles/CPPgit.dir/fill.cpp.o.provides.build
+.PHONY : CMakeFiles/CPPgit.dir/fill.cpp.o.provides
+
+CMakeFiles/CPPgit.dir/fill.cpp.o.provides.build: CMakeFiles/CPPgit.dir/fill.cpp.o
 
 
 # Object files for target CPPgit
 CPPgit_OBJECTS = \
 "CMakeFiles/CPPgit.dir/main.cpp.o" \
-"CMakeFiles/CPPgit.dir/nullable.cpp.o"
+"CMakeFiles/CPPgit.dir/null.cpp.o" \
+"CMakeFiles/CPPgit.dir/fill.cpp.o"
 
 # External object files for target CPPgit
 CPPgit_EXTERNAL_OBJECTS =
 
 CPPgit: CMakeFiles/CPPgit.dir/main.cpp.o
-CPPgit: CMakeFiles/CPPgit.dir/nullable.cpp.o
+CPPgit: CMakeFiles/CPPgit.dir/null.cpp.o
+CPPgit: CMakeFiles/CPPgit.dir/fill.cpp.o
 CPPgit: CMakeFiles/CPPgit.dir/build.make
 CPPgit: CMakeFiles/CPPgit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPPgit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPPgit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPPgit.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +152,8 @@ CMakeFiles/CPPgit.dir/build: CPPgit
 .PHONY : CMakeFiles/CPPgit.dir/build
 
 CMakeFiles/CPPgit.dir/requires: CMakeFiles/CPPgit.dir/main.cpp.o.requires
-CMakeFiles/CPPgit.dir/requires: CMakeFiles/CPPgit.dir/nullable.cpp.o.requires
+CMakeFiles/CPPgit.dir/requires: CMakeFiles/CPPgit.dir/null.cpp.o.requires
+CMakeFiles/CPPgit.dir/requires: CMakeFiles/CPPgit.dir/fill.cpp.o.requires
 
 .PHONY : CMakeFiles/CPPgit.dir/requires
 

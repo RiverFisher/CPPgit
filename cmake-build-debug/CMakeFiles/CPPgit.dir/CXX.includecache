@@ -6,13 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/home/wizard/CLionProjects/CPPgit/fill.cpp
+string
+-
+fill.h
+/home/wizard/CLionProjects/CPPgit/fill.h
+
+/home/wizard/CLionProjects/CPPgit/fill.h
+
 /home/wizard/CLionProjects/CPPgit/main.cpp
 iostream
 -
-nullable.h
-/home/wizard/CLionProjects/CPPgit/nullable.h
+null.h
+/home/wizard/CLionProjects/CPPgit/null.h
+fill.h
+/home/wizard/CLionProjects/CPPgit/fill.h
 
-/home/wizard/CLionProjects/CPPgit/nullable.cpp
+/home/wizard/CLionProjects/CPPgit/null.cpp
+string
+-
+null.h
+/home/wizard/CLionProjects/CPPgit/null.h
 
-/home/wizard/CLionProjects/CPPgit/nullable.h
+/home/wizard/CLionProjects/CPPgit/null.h
 
