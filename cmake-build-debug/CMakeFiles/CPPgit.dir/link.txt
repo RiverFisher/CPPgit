@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/CPPgit.dir/main.cpp.o CMakeFiles/CPPgit.dir/null.cpp.o CMakeFiles/CPPgit.dir/fill.cpp.o  -o CPPgit 

@@ -1,3 +1,0 @@
-/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/wizard/CLionProjects/CPPgit/cmake-build-debug/CMakeFiles/CPPgit.dir
