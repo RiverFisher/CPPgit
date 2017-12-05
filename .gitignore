@@ -1,4 +1,5 @@
 *
+!*.md
 !*.c
 !*.h
 !*.cpp
@@ -7,3 +8,10 @@
 !CMakeLists.txt
 !cmake-build-debug/*
 !cmake-build-debug
+!Alexander_Melnik/*
+!Alexey_Remigailo/*
+!Dmitry_Fedorenko/*
+!Dmitry_Zvezdetskiy/*
+!Eduard_Nekrasov/*
+!Marina_Gribacheva/*
+!Nikita_Larichev/*
