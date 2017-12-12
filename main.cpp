@@ -1,45 +1,33 @@
 #include <iostream>
-#include "null.h"
-#include "fill.h"
+#include "Alexander_Melnik/master.h"
+#include "Alexey_Remigailo/master.h"
+#include "Dmitry_Fedorenko/master.h"
+#include "Dmitry_Zvezdetskiy/master.h"
+#include "Eduard_Nekrasov/master.h"
+#include "Marina_Gribacheva/master.h"
+#include "Nikita_Larichev/master.h"
+#include "Vitaly_Vesyolko/master.h"
 
 using namespace std;
 
+void run();
+
 int main() {
-    int     *arrayOfIntegers = new int[32];
-    string  *arrayOfStrings = new string[32];
-
     /**
-     * Вызов функции time() возвращает системное время.
-     * Благодаря тому, что вызов программы происходит в разный момент времени,
-     * каждый раз числа будут генерироваться иначе, чем в предыдущих запусках программы.
+     * Run threads of every group participant
      */
-    srand(time(NULL));
-
-    fillArrayOfIntegers(arrayOfIntegers);
-    fillArrayOfStrings(arrayOfStrings);
-
-    for (int i = 0; i < 32; i++) {
-        cout << arrayOfIntegers[i] << " ";
-    }
-    cout << endl;
-
-    for (int i = 0; i < 32; i++) {
-        cout << arrayOfStrings[i] << " ";
-    }
-    cout << endl;
-
-    nullArrayOfNumbers(arrayOfIntegers);
-    nullArrayOfStrings(arrayOfStrings);
-
-    for (int i = 0; i < 32; i++) {
-        cout << arrayOfIntegers[i] << " ";
-    }
-    cout << endl;
-
-    for (int i = 0; i < 32; i++) {
-        cout << arrayOfStrings[i] << " ";
-    }
-    cout << endl;
+    run();
 
     return 0;
+}
+
+void run() {
+    thread1();
+    thread2();
+    thread3();
+    thread4();
+    thread5();
+    thread6();
+    thread7();
+    thread8();
 }

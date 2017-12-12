@@ -84,19 +84,67 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/wizard/CLionProjects/CPPgit/fill.cpp">
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Alexander_Melnik/master.cpp">
 			<Option target="CPPgit"/>
 		</Unit>
-		<Unit filename="/home/wizard/CLionProjects/CPPgit/fill.h">
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Alexander_Melnik/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Alexey_Remigailo/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Alexey_Remigailo/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Dmitry_Fedorenko/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Dmitry_Fedorenko/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Dmitry_Zvezdetskiy/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Dmitry_Zvezdetskiy/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Eduard_Nekrasov/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Eduard_Nekrasov/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Marina_Gribacheva/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Marina_Gribacheva/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Nikita_Larichev/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Nikita_Larichev/master.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/ArrayOperations/fill.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/ArrayOperations/fill.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/ArrayOperations/null.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/ArrayOperations/null.h">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/master.cpp">
+			<Option target="CPPgit"/>
+		</Unit>
+		<Unit filename="/home/wizard/CLionProjects/CPPgit/Vitaly_Vesyolko/master.h">
 			<Option target="CPPgit"/>
 		</Unit>
 		<Unit filename="/home/wizard/CLionProjects/CPPgit/main.cpp">
-			<Option target="CPPgit"/>
-		</Unit>
-		<Unit filename="/home/wizard/CLionProjects/CPPgit/null.cpp">
-			<Option target="CPPgit"/>
-		</Unit>
-		<Unit filename="/home/wizard/CLionProjects/CPPgit/null.h">
 			<Option target="CPPgit"/>
 		</Unit>
 		<Unit filename="/home/wizard/CLionProjects/CPPgit/CMakeLists.txt">
