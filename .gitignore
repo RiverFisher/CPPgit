@@ -1,8 +1,6 @@
 *
 !.gitignore
 !CMakeLists.txt
-cmake-build-debug
-cmake-build-debug/*
 !Alexander_Melnik/
 !Alexey_Remigailo/
 !Dmitry_Fedorenko/
