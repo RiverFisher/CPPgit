@@ -112,9 +112,3 @@ size_t string_to_size_t(std::string s) {
     return res;
 }
 
-int main() {
-
-    initTask8();
-
-    return 0;
-}
