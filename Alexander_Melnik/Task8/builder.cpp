@@ -13,7 +13,7 @@ std::string unscramble(std::string); // TODO: refactor
 void testScramble();
 void testUnscramble();
 
-void initTask8() {
+void Alexander_Melnik::initTask8() {
 
     std::cout << "Task8" << std::endl;
 

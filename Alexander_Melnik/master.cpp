@@ -7,8 +7,8 @@
 int thread1() {
     std::cout << "Thread 1 was run." << std::endl;
     std::cout << "Alexander Melnik" << std::endl;
-    initTask8();
-    initTask9();
+    Alexander_Melnik::initTask8();
+    Alexander_Melnik::initTask9();
 
     return 0;
 }

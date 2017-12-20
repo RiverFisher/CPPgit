@@ -17,7 +17,7 @@ int findPathWithMaxSum(BinTreeNode *head, int &sum, int &maxSum, std::string &cu
 
 void testFindPathWithMaxSum();
 
-void initTask9() {
+void Alexander_Melnik::initTask9() {
 
     std::cout << "Task9" << std::endl;
 
