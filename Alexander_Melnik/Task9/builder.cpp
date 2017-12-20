@@ -153,7 +153,7 @@ void testFindPathWithMaxSum() {
     std::string maxPath;
 
     // 1st test
-    head = buildTreeFromFile("../tests/1.txt");
+    head = buildTreeFromFile("../Alexander_Melnik/Task9/tests/1.txt");
     assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 29);
     assert(maxPath == "RLRLRR");
     deleteTree(head);
@@ -164,7 +164,7 @@ void testFindPathWithMaxSum() {
     currPath.clear();
 
     // 2nd test
-    head = buildTreeFromFile("../tests/2.txt");
+    head = buildTreeFromFile("../Alexander_Melnik/Task9/tests/2.txt");
     assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 17);
     assert(maxPath == "LRRRRR");
     deleteTree(head);
@@ -175,7 +175,7 @@ void testFindPathWithMaxSum() {
     currPath.clear();
 
     // 3rd test
-    head = buildTreeFromFile("../tests/test.txt");
+    head = buildTreeFromFile("../Alexander_Melnik/Task9/tests/test.txt");
     assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 20);
     assert(maxPath == "RRR");
     deleteTree(head);
