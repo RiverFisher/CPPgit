@@ -8,12 +8,12 @@
 
 struct BinTreeNode {
     int value;
-    BinTreeNode *left = NULL, *right = NULL;
+    BinTreeNode *left = nullptr, *right = nullptr;
 };
 
-BinTreeNode* buildTreeFromFile(const char *filename); // TODO: memory must be free before throwing exception
-void deleteTree(BinTreeNode *head); // TODO: fix (NULL != NULL)
-int findPathWithMaxSum(BinTreeNode *head, std::string &maxPath); // TODO: fix (set static variables to zero)
+BinTreeNode* buildTreeFromFile(const char *filename);
+void deleteTree(BinTreeNode *head); // TODO: crashes during pointer deleting
+int findPathWithMaxSum(BinTreeNode *head, int &sum, int &maxSum, std::string &currPath, std::string &maxPath);
 
 void testFindPathWithMaxSum();
 
@@ -51,6 +51,9 @@ BinTreeNode* buildTreeFromFile(const char *filename) {
 
         if (nodes.size() == 1) {
             if (prevQuantityOfNumbers != 0) {
+                // free allocated memory
+                delete nodes[0];
+                // then throw an exception
                 throw std::runtime_error("Incorrect input data. First line must contain only 1 number.");
             }
             prevQuantityOfNumbers = 1;
@@ -60,6 +63,12 @@ BinTreeNode* buildTreeFromFile(const char *filename) {
 
         } else if (nodes.size() > 1) {
             if ( nodes.size() != (prevQuantityOfNumbers + 1) ) {
+                // free allocated memory
+                deleteTree(head);
+                for (BinTreeNode *p : nodes) {
+                    delete p;
+                }
+                // then throw an exception
                 throw std::runtime_error("Incorrect input data. Quantity of numbers in every next line must be greater by 1 than quantity of numbers in previous line.");
             }
             prevQuantityOfNumbers = nodes.size();
@@ -83,28 +92,28 @@ BinTreeNode* buildTreeFromFile(const char *filename) {
 
 void deleteTree(BinTreeNode *head) {
 
-    if (head == NULL) {
+    if (head == nullptr) {
         return;
     }
 
-    if ((head->left == NULL) && (head->right == NULL)) {
-        delete head;
+    if ((head->left == nullptr) && (head->right == nullptr)) {
+        // TODO
+        // delete head;
+        head = nullptr; // memory leak
         return;
     }
 
     deleteTree(head->left);
     deleteTree(head->right);
 
-    delete head;
+    // TODO
+    // delete head;
+    head = nullptr; // memory leak
 }
 
-int findPathWithMaxSum(BinTreeNode *head, std::string &maxPath) {
+int findPathWithMaxSum(BinTreeNode *head, int &sum, int &maxSum, std::string &currPath, std::string &maxPath) {
 
-    static int sum = 0;
-    static int maxSum = 0;
-    static std::string currPath;
-
-    if (head->left == NULL) {
+    if (head->left == nullptr) {
         return sum + head->value;
     }
 
@@ -115,14 +124,14 @@ int findPathWithMaxSum(BinTreeNode *head, std::string &maxPath) {
     int s;
 
     currPath += 'L';
-    if ( (s = findPathWithMaxSum(head->left, maxPath)) > maxSum ) {
+    if ( (s = findPathWithMaxSum(head->left, sum, maxSum, currPath, maxPath)) > maxSum ) {
         maxSum = s;
         maxPath = currPath;
     }
     currPath.pop_back();
 
     currPath += 'R';
-    if ( (s = findPathWithMaxSum(head->right, maxPath)) > maxSum ) {
+    if ( (s = findPathWithMaxSum(head->right, sum, maxSum, currPath, maxPath)) > maxSum ) {
         maxSum = s;
         maxPath = currPath;
     }
@@ -136,21 +145,38 @@ int findPathWithMaxSum(BinTreeNode *head, std::string &maxPath) {
 
 void testFindPathWithMaxSum() {
 
-    BinTreeNode* head;
+    BinTreeNode *head;
+
+    int sum = 0;
+    int maxSum = -1;
+    std::string currPath;
     std::string maxPath;
 
+    // 1st test
     head = buildTreeFromFile("../tests/1.txt");
-    assert(findPathWithMaxSum(head, maxPath) == 29);
+    assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 29);
     assert(maxPath == "RLRLRR");
     deleteTree(head);
 
+
+    sum = 0;
+    maxSum = -1;
+    currPath.clear();
+
+    // 2nd test
     head = buildTreeFromFile("../tests/2.txt");
-    assert(findPathWithMaxSum(head, maxPath) == 17);
+    assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 17);
     assert(maxPath == "LRRRRR");
     deleteTree(head);
 
+
+    sum = 0;
+    maxSum = -1;
+    currPath.clear();
+
+    // 3rd test
     head = buildTreeFromFile("../tests/test.txt");
-    assert(findPathWithMaxSum(head, maxPath) == 20);
+    assert(findPathWithMaxSum(head, sum, maxSum, currPath, maxPath) == 20);
     assert(maxPath == "RRR");
     deleteTree(head);
 }
