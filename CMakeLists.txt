@@ -14,6 +14,7 @@ set(SOURCE_FILES
 
         Dmitry_Fedorenko/master.cpp
         Dmitry_Fedorenko/Task8/converter.cpp
+        Dmitry_Fedorenko/Task4/same_elements.cpp
 
         Dmitry_Zvezdetskiy/master.cpp
 
@@ -21,7 +22,6 @@ set(SOURCE_FILES
 
         Marina_Gribacheva/master.cpp
 
-        Nikita_Larichev/master.cpp
-)
+        Nikita_Larichev/master.cpp)
 
 add_executable(CPPgit ${SOURCE_FILES})
