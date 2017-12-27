@@ -3,6 +3,7 @@
 #include <cstring>
 #include "ArrayOperations/null.h"
 #include "ArrayOperations/fill.h"
+#include "realloc_example/builder.h"
 
 int thread8() {
     std::cout << "Thread 8 was run." << std::endl;
@@ -42,6 +43,10 @@ int thread8() {
         std::cout << arrayOfStrings[i] << " ";
     }
     std::cout << std::endl;
+
+    reallocDemonstration();
+
+    std::cout << "Return of Edward" << std::endl;
 
     return 0;
 }
