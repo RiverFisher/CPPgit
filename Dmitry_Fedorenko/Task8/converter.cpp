@@ -10,7 +10,7 @@ string unconvert(string);
 void testConvert();
 void testUnconvert();
 
-void initTask8(){
+void Dmitry_Fedorenko::initTask8(){
     cout << "Task8 was run" << endl;
 
     cout << "Tests was run" << endl;

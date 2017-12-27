@@ -6,7 +6,7 @@
 #include "Eduard_Nekrasov/master.h"
 #include "Marina_Gribacheva/master.h"
 #include "Nikita_Larichev/master.h"
-#include "Vitaly_Vesyolko/master.h"
+//#include "Vitaly_Vesyolko/master.h"
 
 using namespace std;
 
@@ -29,5 +29,5 @@ void run() {
     thread5();
     thread6();
     thread7();
-    thread8();
+//    thread8();
 }
