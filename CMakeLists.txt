@@ -22,6 +22,6 @@ set(SOURCE_FILES
 
         Marina_Gribacheva/master.cpp
 
-        Nikita_Larichev/master.cpp)
+        Nikita_Larichev/master.cpp Eduard_Nekrasov/bubble_sort/task1.h Eduard_Nekrasov/bubble_sort/task1.cpp Eduard_Nekrasov/my_queue/task2.cpp Eduard_Nekrasov/my_queue/task2.h)
 
 add_executable(CPPgit ${SOURCE_FILES})
