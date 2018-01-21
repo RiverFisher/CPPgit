@@ -5,6 +5,8 @@
 #ifndef CPPGIT_TASK2_H
 #define CPPGIT_TASK2_H
 
-int Eduard_Nekrasov_Queue();
+namespace Eduard_Nekrasov {
+    void initTask2();
+}
 
 #endif //CPPGIT_TASK2_H

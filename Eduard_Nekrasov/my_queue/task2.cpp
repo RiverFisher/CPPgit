@@ -63,7 +63,7 @@ void find(queue *q)
     cout << check->key <<endl;
 }
 
-int Eduard_Nekrasov_Queue() {
+void Eduard_Nekrasov::initTask2() {
 
     setlocale(0, "rus");
     queue* end = NULL;
@@ -144,10 +144,4 @@ int Eduard_Nekrasov_Queue() {
                 break;
         }
     }
-    return 0;
-}
-
-int main()
-{
-    Eduard_Nekrasov_Queue();
 }

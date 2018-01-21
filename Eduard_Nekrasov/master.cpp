@@ -9,11 +9,11 @@ int thread5() {
     cout << "Project was run!!!" << endl;
 
     cout << "Bubble sort was run" << endl;
-    Eduard_Nekrasov_bubble_sort();
+    Eduard_Nekrasov::initTask1();
     cout << "Bubble sort was end" << endl;
 
     cout << "Queue was run" << endl;
-    Eduard_Nekrasov_Queue();
+    Eduard_Nekrasov::initTask2();
     cout << "Queue was end" << endl;
     return 0;
 }

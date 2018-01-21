@@ -1,11 +1,11 @@
 #include "task1.h"
 #include <iostream>
-#include "bubble_sort.h"
 #include "assert.h"
+#include "test.h"
 
 using namespace std;
 
-int Eduard_Nekrasov_bubble_sort() {
+void Eduard_Nekrasov::initTask1(){
 
     cout << "Start test 1" << endl;
     assert(test1());
@@ -16,7 +16,5 @@ int Eduard_Nekrasov_bubble_sort() {
     cout << "Start test 3" << endl;
     assert(test3());
     cout << "Complete test 3" << endl;
-
-    return 0;
 
 }

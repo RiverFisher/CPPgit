@@ -1,4 +1,6 @@
-#include "bubble_sort.h"
+#include "bubble_s.h"
+#include "test.h"
+#include "task1.h"
 #include <iostream>
 
 using namespace std;
