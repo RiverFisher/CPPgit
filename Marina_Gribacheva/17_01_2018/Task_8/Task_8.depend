@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1513724006 source:f:\c++\Новая папка\task_8\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"assert.h"
+	"tests.h"
+
+1512816882 source:e:\c++\Новая папка\task_8\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1513724090 f:\c++\Новая папка\task_8\tests.h
+	<string>
+	<iostream>
+
+1513724050 source:f:\c++\Новая папка\task_8\tests.cpp
+	"tests.h"
+	<string>
+	<iostream>
+
