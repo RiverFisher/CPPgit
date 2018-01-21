@@ -22,6 +22,21 @@ set(SOURCE_FILES
 
         Marina_Gribacheva/master.cpp
 
-        Nikita_Larichev/master.cpp Eduard_Nekrasov/bubble_sort/task1.h Eduard_Nekrasov/bubble_sort/task1.cpp Eduard_Nekrasov/my_queue/task2.cpp Eduard_Nekrasov/my_queue/task2.h Eduard_Nekrasov/bubble_sort/test.cpp Eduard_Nekrasov/bubble_sort/test.h Eduard_Nekrasov/bubble_sort/bubble_s.cpp Eduard_Nekrasov/bubble_sort/bubble_s.h)
+        Nikita_Larichev/master.cpp
+
+        Eduard_Nekrasov/bubble_sort/task1.h
+        Eduard_Nekrasov/bubble_sort/task1.cpp
+        Eduard_Nekrasov/my_queue/task2.cpp
+        Eduard_Nekrasov/my_queue/task2.h
+        Eduard_Nekrasov/bubble_sort/test.cpp
+        Eduard_Nekrasov/bubble_sort/test.h
+        Eduard_Nekrasov/bubble_sort/bubble_s.cpp
+        Eduard_Nekrasov/bubble_sort/bubble_s.h
+
+        Vitaly_Vesyolko/master.cpp
+        Vitaly_Vesyolko/ArrayOperations/fill.cpp
+        Vitaly_Vesyolko/ArrayOperations/null.cpp
+        Vitaly_Vesyolko/realloc_example/builder.cpp
+        )
 
 add_executable(CPPgit ${SOURCE_FILES})

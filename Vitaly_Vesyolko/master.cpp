@@ -5,11 +5,17 @@
 #include "ArrayOperations/fill.h"
 #include "realloc_example/builder.h"
 
-int thread8() {
+void printSomething(void)
+{
+    std::cout << "Something" << std::endl;
+}
+
+int thread8()
+{
     std::cout << "Thread 8 was run." << std::endl;
 
-    int     *arrayOfIntegers = new int[32];
-    std::string  *arrayOfStrings = new std::string[32];
+    int             *arrayOfIntegers = new int[32];
+    std::string     *arrayOfStrings = new std::string[32];
 
     /**
      * Вызов функции time() возвращает системное время.
@@ -46,7 +52,9 @@ int thread8() {
 
     reallocDemonstration();
 
-    std::cout << "Return of Edward" << std::endl;
+    void (*printSomethingViaPointer)(void);
+    printSomethingViaPointer = &printSomething;
+    printSomething();
 
     return 0;
 }
