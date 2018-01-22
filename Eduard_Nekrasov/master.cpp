@@ -5,6 +5,15 @@
 
 using namespace std;
 
+int fact(int k)
+{
+    int fac = 1;
+    for (int i = k;i>0;i--)
+    {
+        fac = fac * i;
+    }
+    return fac;
+}
 int thread5() {
     cout << "Project was run!!!" << endl;
 
@@ -15,5 +24,6 @@ int thread5() {
     cout << "Queue was run" << endl;
     Eduard_Nekrasov::initTask2();
     cout << "Queue was end" << endl;
+    cout << fact(5) << endl;
     return 0;
 }
